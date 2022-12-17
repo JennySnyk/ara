@@ -28,7 +28,7 @@
         <sonar.language>java</sonar.language>
         <jacoco.phase.agent>test-compile</jacoco.phase.agent>
         <jacoco.phase.report>verify</jacoco.phase.report>
-        <springdoc.version>1.6.4</springdoc.version>
+        <springdoc.version>1.6.14</springdoc.version>
     </properties>
     <dependencies>
         <dependency>
