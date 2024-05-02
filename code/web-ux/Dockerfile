@@ -11,7 +11,7 @@ RUN npm run build
 
 # STAGE 2 : serve
 
-FROM nginx:1.20.2
+FROM nginx:1
 
 ENV PORT 7000
 EXPOSE ${PORT}
