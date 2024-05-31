@@ -11,7 +11,7 @@ RUN npm run build
 
 # STAGE 2 : serve
 
-FROM nginx:1.19
+FROM nginx:1.26.1
 
 ENV ARA_API_HOST localhost
 ENV ARA_API_PORT 8000
